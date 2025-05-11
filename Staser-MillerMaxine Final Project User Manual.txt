@@ -1,0 +1,41 @@
+This is a mock-up of a simple point-of-sale system that one might use to manage the cash register at a gas station convenience store.
+
+Upon launching the program, the user will be presented with an array of sixteen buttons, a list displaying the current items on the ticket to be sold, and a running total cost. 
+
+The correct use of each button's function is detailed below:
+
+### Gas Pump ###
+
+Selecting any of the "Pump" buttons will let you help the customer pre-pay for their gas. Upon pressing the button, you will be prompted to enter an amount in either Gallons or Dollars. The price and amount are automatically calculated based on the current gas prices. 
+
+Selecting the "Gas Prices" button will allow you to change the price from it's default ($3.00) to any price you like.
+
+### Tobacco, Lottery, and Age Verification ###
+
+Upon selecting either the Tobacco or Lottery buttons, you will be asked to enter the Date of Birth as seen on their ID to verify they are of legal age to purchase these items.
+
+After a successful age verification, you will be able to use the Tobacco button to add Cigarettes to the sales list and the Lottery buton to add Lottery tickets to the sales list for the rest of the current transaction.
+
+### Soda and Lunch Quick Buttons ###
+
+For your convenience, popular items are only a button's press away. You can add a fountain drink to any ticket simply by pressing "Soda", and lunch items are in a special window that appears when pressing the "Lunch" button.
+
+### Add Item and Delete Last Item ###
+
+These buttons ensure the program is robust enough to handle any unexpected sales you make or mistakes that might occur. 
+
+"Add Item" will prompt you to enter an item name and price to be added to the sales list. 
+
+"Delete Last Item" removes the last item from the sales list entirely. A handy "undo" button.
+
+### Payment Buttons ###
+
+For customers paying with Cash, simply hit "Cash" and enter the amount of money given to you. The computer will automatically calculate the necesssary amount of change. For customers paying with debit or credit cards, hit "Credit" and the exact amount will be deducted from their card.
+
+After payment, a Receipt is automatically generated.
+
+### Print Receipt and End Day ###
+
+If you ever need to print an additional receipt of the current transaction, simply it "Print Receipt". 
+
+To add up the total sales for the whole day, select "End Day" and a report will be printed with the sales and the current date and time. The count of accumulated sales will reset after pressing this button.
